@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+body > header {
+    background-color: purple;
+    padding: 16px 0;
+    color: darkgray;
+}
+
+header.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: darkgreen;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(255, 69, 0, 0.5); /* Tom avermelhado */
+}
+
+#sports .articles article a {
+    background-color: rgba(220, 20, 60, 0.7); /* Crimson */
+}
+
+#economy {
+    background-color: rgba(34, 139, 34, 0.5); /* Verde floresta */
+}
+
+#economy .articles article a {
+    background-color: rgba(46, 139, 87, 0.8); /* Verde escuro suave */
+    color: ivory;
+}
+
+#technology {
+    background-color: rgba(0, 0, 128, 0.5); /* Azul escuro */
+}
+
+#technology .articles article a {
+    background-color: rgba(25, 25, 112, 0.8); /* Azul meia-noite */
+    color: lightyellow;
+}
+
+#entertainment {
+    background-color: rgba(138, 43, 226, 0.5); /* Roxo médio */
+}
+
+#entertainment .articles article a {
+    background-color: rgba(148, 0, 211, 0.8); /* Violeta escuro */
+    color: white;
+}
